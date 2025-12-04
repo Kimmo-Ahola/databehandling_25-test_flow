@@ -4,7 +4,7 @@ Jag skriver här ner stegen jag kommer att köra när jag klonar era repon och k
 
 1. Jag klonar ert repo till en mapp, delete_me, på mitt skrivbord
 2. Jag skapar en virtuell miljö
-3. Jag aktiverar den virtuella miljön och kör pip install -r requirements.tx. Se till att alla bibliotek finns i textfilen.
+3. Jag aktiverar den virtuella miljön och kör pip install -r requirements.txt. Se till att alla bibliotek finns i textfilen.
 4. Jag skapar en helt ny databas i MySQL Workbench, delete_me_hotel
 5. Jag byter connection string i er app så att den stämmer överens med databasen
 6. Jag kör alembic stamp base = ställer mig på första migrationen
