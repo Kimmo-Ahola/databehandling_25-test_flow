@@ -19,7 +19,7 @@ Jag skriver här ner stegen jag kommer att köra när jag klonar era repon och k
 ## Vanliga källor till kraschar
 
 1. Dålig felhantering av input("ange id: "). Ni måste hantera int och str korrekt!
-1. Ni hanterar inte None korrekt. Tänk på att session.query().first() returnerar None.
+1. Ni hanterar inte None korrekt. Tänk på att session.query().first() returnerar ditt tabellobjekt eller None.
 1. Brist på try: except: i koden.
 
 >[!TIP]
